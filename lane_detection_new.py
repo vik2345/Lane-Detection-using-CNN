@@ -29,11 +29,6 @@ pip install scipy==1.1.0
 !wget "https://www.dropbox.com/s/ak850zqqfy6ily0/full_CNN_labels.p?dl=0" -P "/content/gdrive/MyDrive/image"
 
 !wget "https://www.dropbox.com/s/rrh8lrdclzlnxzv/full_CNN_train.p?dl=0" -P "/content/gdrive/MyDrive/image"
-
-!wget "https://github.com/udacity/CarND-Advanced-Lane-Lines/blob/master/challenge_video.mp4" -P "/content/gdrive/MyDrive/image"
-
-
-
 import numpy as np
 import pickle
 from sklearn.utils import shuffle
